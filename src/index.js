@@ -1,3 +1,12 @@
-module.exports = function reverseInt(n) {
-  return parseFloat(n.toString().split('').reverse().join('')) * Math.sign(n);
-} 
+module.exports = function reversedNum(num) { 
+  return (
+    parseFloat(
+      num
+        .toString()
+        .split('')
+        .reverse()
+        .join('')
+    ) * Math.sign(num)
+  )                 
+}
+
