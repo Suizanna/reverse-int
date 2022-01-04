@@ -1,4 +1,4 @@
-module.exports = function reversedNum(num) { 
-return num = Math.abs(n).toString().split("").reverse().join("");            
+module.exports = function reverse (n) {
+    string = Math.abs(n).toString().split('').reverse().join('');
+    return Number.parseInt(string,[Number]);
 }
-
