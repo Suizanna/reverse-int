@@ -1,12 +1,4 @@
 module.exports = function reversedNum(num) { 
-  return (
-    parseFloat(
-      num
-        .toString()
-        .split('')
-        .reverse()
-        .join('')
-    ) * Math.sign(num)
-  )                 
+return parseFloat(n.toString().split('').reverse().join('')) * Math.sign(n);               
 }
 
